@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
@@ -68,7 +69,7 @@ class MyApp extends StatelessWidget {
                       color: Colors.teal.shade900,
                       fontFamily: 'SourceSansPro',
                       fontWeight: FontWeight.bold,
-                      fontSize: 20.0,
+                      fontSize: 18.0,
                     ),
                   ),
                 ),
